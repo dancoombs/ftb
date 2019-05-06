@@ -103,7 +103,7 @@ func DoTransform(csvReader *csv.Reader, csvWriter *csv.Writer, firstLine int) er
 		}
 
 		lineNum++
-		if lineNum < firstLine {
+		if lineNum < (firstLine + 1) {
 			continue
 		}
 

@@ -32,5 +32,5 @@ func main() {
 	reader := csv.NewReader(inFile)
 	writer := csv.NewWriter(outFile)
 
-	tform.DoTransform(reader, writer, 11)
+	tform.DoTransform(reader, writer, 1)
 }
